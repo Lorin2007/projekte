@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+    <title>Lorins Website</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="HTML-Datei für die Modelllektion DIK1 an 
+		der Seminarveranstaltung im Hotel Bad Ramsach in Läufelfingen">
+    <meta name="keywords" content="Modelllektion, HTML5, DIK1, Bad Ramsach, Läufelfingen">
+    <meta name="author" content="Daniel Brodbeck">
+</head>
+<body>
+    <h1>Meine eigene Website</h1>
+    <h2>Freitag 18.08.23</h2>
+    <h3>Thema: Familienessen</h3>
+    <strong>Motto: Alli zämme</strong>
+    <ul>
+        <li>Die Informatik besser kennenlernen</li>     
+    </ul>
+    <hr>
+    <h2>Samstag, 19.08.23. Mittagessen bei Grosi und Grospapi</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Uhrzeit</th>
+                <th>Beschreibung</th>
+                <th>Betrifft</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>11:00 - 15:00 Uhr</td>
+                <td>beste Famielieässe<br>
+                    Mitglieder Gruppe RADICMOS</strong>
+                    <ol>
+                        <li>Claudia Radicke</li>
+                        <li>ELena Radicke</li>
+                        <li>Andre Moser</li>
+                        <li><del>Grosi</del></li>
+                        <li>Grospapi</li>
+                        <li>Mui</li>
+                        <li>Lorin Radicke</li>
+                    </ol>
+                </td>
+                <td>Gruppe</td>
+            </tr>
+                <tr>11:00 - 14:00 Uhr</td>
+                <td>Mittgessen bei Grosi
+                    <a href="https://bit.ly/3YHy7zB">
+                        Carmenstrasse 21
+                    </a>
+                </td>
+                <td>Alle</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

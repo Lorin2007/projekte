@@ -1,0 +1,115 @@
+:root {
+    --color1: bisque;
+    --color2: aquamarine;
+    --color3: fuchsia;
+    --color4: darkgrey;
+    --color5: lightblue;
+    --color6: white;
+}
+
+body {
+    max-width: 1200px;
+    padding: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+       "header header header"
+       "navigation navigation navigation"
+       "content content aside"
+       "footer footer footer";
+}
+ 
+header {
+    grid-area: header;
+    border: 1px solid black;
+    padding: 10px;
+    min-height: 100px;
+    margin: 5px;
+    background-color: var(--color1);
+}
+
+nav {
+    grid-area: navigation;
+    border: 1px solid black;
+    padding: 10px;
+    max-height: 1000px;
+    margin: 5px;
+    background-color: var(--color2);
+}
+
+main {
+    grid-area: content;
+    border: 1px solid black;
+    padding: 10px;
+    min-height: 100px;
+    margin: 5px;
+    background-color: var(--color3);
+}
+
+aside {
+    grid-area: aside;
+    border: 1px solid black;
+    padding: 10px;
+    min-height: 100px;
+    margin: 5px;
+    background-color: var(--color4);
+}
+
+footer {
+    grid-area: footer;
+    border: 1px solid black;
+    padding: 10px;
+    min-height: 100px;
+    margin: 5px;
+    background-color: var(--color5);
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+div {
+    border: 1px solid black;
+    padding: 10px;
+    width: 33%;
+    background-color: var(--color6);
+    margin: 10px;
+}
+
+img {
+    float: left;
+    margin: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+nav li {
+    border: 1px solid black;
+    width: 20%;
+    background-color: var(--color3);
+    margin: 5px;
+}
+
+@media (max-width: 600px) {
+    body { 
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "header"
+        "navigation"
+        "content"
+        "aside"
+        "footer";
+    }  
+    nav ul {
+        display: block;
+    }
+}
