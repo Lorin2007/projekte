@@ -311,3 +311,6 @@ h5 {
     src: url(webfontkit-20230922-094235/lato-regular-webfont.woff) format(woff),
     url(webfontkit-20230922-094235/lato-regular-webfont.woff2) format(woff2)
 }
+
+@media (max-width:640px) {
+}
