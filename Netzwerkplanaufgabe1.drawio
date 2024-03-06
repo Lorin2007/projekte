@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T08:38:29.072Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.0" etag="XcMS06GU3OSeDne2n_AE" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T08:44:26.011Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="EH8SrpG4LHhhBhkVZQ0J" version="24.0.0" type="github">
   <diagram name="Page-1" id="FBtMGMUnysoZTFoQg5hw">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-1" value="192.168.0.0/24" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.nas;" vertex="1" parent="1">
+          <mxGeometry x="590" y="430" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="ApG5QdqdcKeVNtwqTkVT-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="440" as="sourcePoint" />
+            <mxPoint x="640" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-4" value="NAS für BackUp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="585" y="400" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="420" as="sourcePoint" />
+            <mxPoint x="330" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-7" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.nas;" vertex="1" parent="1">
+          <mxGeometry x="150" y="420" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-8" value="Storage NAS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="390" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-9" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="130" y="110" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.6;entryY=0.955;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ApG5QdqdcKeVNtwqTkVT-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="300" as="sourcePoint" />
+            <mxPoint x="370" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-11" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.35;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="170.5" y="390" as="sourcePoint" />
+            <mxPoint x="199.5" y="222.97000000000003" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180.5" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-12" value="ISCI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="280" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-13" value="Server Hypervisor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="58" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="280" as="sourcePoint" />
+            <mxPoint x="550" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
