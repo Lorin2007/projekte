@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T08:51:20.940Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="fVHo-RAFnARjeHcFQFHE" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T09:03:12.934Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="bY7U6iDwa4ZkDyeM3Vzw" version="24.0.0" type="github">
   <diagram name="Page-1" id="FBtMGMUnysoZTFoQg5hw">
     <mxGraphModel dx="1434" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,8 +16,8 @@
             <mxPoint x="640" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ApG5QdqdcKeVNtwqTkVT-4" value="NAS für BackUp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="585" y="400" width="110" height="30" as="geometry" />
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-4" value="BackUP NAS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="400" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ApG5QdqdcKeVNtwqTkVT-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -28,8 +28,8 @@
         <mxCell id="ApG5QdqdcKeVNtwqTkVT-7" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.nas;" vertex="1" parent="1">
           <mxGeometry x="150" y="420" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ApG5QdqdcKeVNtwqTkVT-8" value="Storage NAS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="140" y="390" width="90" height="30" as="geometry" />
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-8" value="StoNAS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="390" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ApG5QdqdcKeVNtwqTkVT-9" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
           <mxGeometry x="130" y="110" width="140" height="110" as="geometry" />
@@ -52,8 +52,8 @@
         <mxCell id="ApG5QdqdcKeVNtwqTkVT-12" value="ISCI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="130" y="280" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ApG5QdqdcKeVNtwqTkVT-13" value="Server Hypervisor Typ1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="125" y="80" width="150" height="30" as="geometry" />
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-13" value="phy-srv-HyperV1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="80" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ApG5QdqdcKeVNtwqTkVT-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -65,10 +65,10 @@
           <mxGeometry x="90" y="140" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ApG5QdqdcKeVNtwqTkVT-16" value="192.168.0.26" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="160" y="490" width="90" height="30" as="geometry" />
+          <mxGeometry x="240" y="440" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ApG5QdqdcKeVNtwqTkVT-17" value="192.168.0.27" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="595" y="500" width="90" height="30" as="geometry" />
+          <mxGeometry x="510" y="440" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ApG5QdqdcKeVNtwqTkVT-18" value="waage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="140" width="80" height="40" as="geometry" />
@@ -87,6 +87,123 @@
         </mxCell>
         <mxCell id="ApG5QdqdcKeVNtwqTkVT-23" value="HPLC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-25" value="IP-Range von 192.168.0.28-192.168.0.33" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="100" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-28" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;" vertex="1" parent="1">
+          <mxGeometry x="60" y="540" width="50" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-29" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;" vertex="1" parent="1">
+          <mxGeometry x="130" y="540" width="50" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-30" value="Raid 1 SSD&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="570" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="540" as="sourcePoint" />
+            <mxPoint x="150" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="540" as="sourcePoint" />
+            <mxPoint x="220" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-33" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.hard_disk;" vertex="1" parent="1">
+          <mxGeometry x="470" y="561" width="40" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-34" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.hard_disk;" vertex="1" parent="1">
+          <mxGeometry x="530" y="561" width="40" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-35" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.hard_disk;" vertex="1" parent="1">
+          <mxGeometry x="595" y="561" width="40" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-36" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.hard_disk;" vertex="1" parent="1">
+          <mxGeometry x="655" y="561" width="40" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-37" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="430" as="sourcePoint" />
+            <mxPoint x="720" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-38" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;" vertex="1" parent="1">
+          <mxGeometry x="695" y="318" width="50" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ApG5QdqdcKeVNtwqTkVT-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="550" as="sourcePoint" />
+            <mxPoint x="650" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ApG5QdqdcKeVNtwqTkVT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="570" as="sourcePoint" />
+            <mxPoint x="560" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ApG5QdqdcKeVNtwqTkVT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="560" as="sourcePoint" />
+            <mxPoint x="611" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ApG5QdqdcKeVNtwqTkVT-36" target="ApG5QdqdcKeVNtwqTkVT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="560" as="sourcePoint" />
+            <mxPoint x="740" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-43" value="1TB HDD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="610" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-44" value="1TB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="540" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="764.5" as="sourcePoint" />
+            <mxPoint x="150" y="764.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="764.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-46" value="Zeigt an das Speichermedium im NAS ist." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="750" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-47" value="1Gib-Ethernet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="310" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-49" value="externe SSD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="665" y="288" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-50" value="USB 3.0 Kabel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="695" y="380" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-52" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;" vertex="1" parent="1">
+          <mxGeometry x="300" y="184.5" width="50" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-53" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;" vertex="1" parent="1">
+          <mxGeometry x="300" y="137.25" width="50" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-58" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="154.5" as="sourcePoint" />
+            <mxPoint x="230" y="154.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="295" y="190" as="sourcePoint" />
+            <mxPoint x="225" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApG5QdqdcKeVNtwqTkVT-60" value="0,5TB Raid 1 SSD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="110" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
